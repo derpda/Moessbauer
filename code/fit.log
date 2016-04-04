@@ -1,0 +1,379 @@
+
+
+*******************************************************************************
+Mon Apr  4 11:54:18 2016
+
+
+FIT:    data read from "../data/calibration/Ag.TKA"
+        format = z
+        #datapoints = 2048
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x) [120:400]
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Mon Apr  4 11:54:25 2016
+
+
+FIT:    data read from "../data/calibration/Ag.TKA"
+        format = z
+        #datapoints = 2048
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x) [120:400]
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Mon Apr  4 11:54:45 2016
+
+
+FIT:    data read from "../data/calibration/Ag.TKA"
+        format = z
+        x range restricted to [120.000 : 400.000]
+        #datapoints = 281
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 8.25575e+10       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 121.804
+
+initial set of free parameter values
+
+A               = 1
+B               = 1
+C               = 1
+sig             = 1
+mu              = 1
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 3.68334e+10
+rel. change during last iteration : -2.05456e-10
+
+degrees of freedom    (FIT_NDF)                        : 276
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 11552.2
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.33454e+08
+
+BREAK:          Singular matrix in Invert_RtR
+
+
+
+*******************************************************************************
+Mon Apr  4 11:57:51 2016
+
+
+FIT:    data read from "../data/calibration/Ag.TKA"
+        format = z
+        x range restricted to [130.000 : 400.000]
+        #datapoints = 271
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 3.4621e+10        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 123.569
+
+initial set of free parameter values
+
+A               = 1
+B               = 19291.3
+C               = -24.7957
+sig             = 1
+mu              = 1.001
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 3.4276e+10
+rel. change during last iteration : -1.55802e-11
+
+degrees of freedom    (FIT_NDF)                        : 266
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 11351.5
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.28857e+08
+
+BREAK:          Singular matrix in Invert_RtR
+
+
+
+*******************************************************************************
+Mon Apr  4 11:58:43 2016
+
+
+FIT:    data read from "../data/calibration/Ag.TKA"
+        format = z
+        x range restricted to [130.000 : 400.000]
+        #datapoints = 271
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.23002e+13       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 123.569
+
+initial set of free parameter values
+
+A               = 1
+B               = 23179.3
+C               = 1000
+sig             = 50
+mu              = 360
+
+After 47 iterations the fit converged.
+final sum of squares of residuals : 3.24508e+10
+rel. change during last iteration : -8.57732e-06
+
+degrees of freedom    (FIT_NDF)                        : 266
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 11045.2
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.21996e+08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A               = -2380.63         +/- 4824         (202.6%)
+B               = 22927.6          +/- 5304         (23.13%)
+C               = -33.2374         +/- 27.04        (81.35%)
+sig             = 41.6383          +/- 93.01        (223.4%)
+mu              = 369.022          +/- 66.24        (17.95%)
+
+
+correlation matrix of the fit parameters:
+
+               A      B      C      sig    mu     
+A               1.000 
+B               0.882  1.000 
+C              -0.927 -0.983  1.000 
+sig            -0.621 -0.665  0.729  1.000 
+mu             -0.403 -0.438  0.459  0.733  1.000 
+
+
+*******************************************************************************
+Mon Apr  4 12:01:17 2016
+
+
+FIT:    data read from "../data/calibration/Ag.TKA"
+        format = z
+        #datapoints = 2048
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.19555e+12       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 528.626
+
+initial set of free parameter values
+
+A               = -2380.63
+B               = 22927.6
+C               = -33.2374
+sig             = 41.6383
+mu              = 369.022
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.57751e+11
+rel. change during last iteration : -1.78942e-10
+
+degrees of freedom    (FIT_NDF)                        : 2043
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8787.24
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.72156e+07
+
+BREAK:          Singular matrix in Invert_RtR
+
+
+
+*******************************************************************************
+Mon Apr  4 12:01:30 2016
+
+
+FIT:    data read from "../data/calibration/Ag.TKA"
+        format = z
+        x range restricted to [130.000 : 400.000]
+        #datapoints = 271
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 3.68439e+10       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 123.569
+
+initial set of free parameter values
+
+A               = -2865.73
+B               = 13260.3
+C               = -7.52862
+sig             = -15.1023
+mu              = -321.05
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 3.4276e+10
+rel. change during last iteration : -1.01397e-10
+
+degrees of freedom    (FIT_NDF)                        : 266
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 11351.5
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.28857e+08
+
+BREAK:          Singular matrix in Invert_RtR
+
+
+
+*******************************************************************************
+Mon Apr  4 12:01:32 2016
+
+
+FIT:    data read from "../data/calibration/Ag.TKA"
+        format = z
+        x range restricted to [130.000 : 400.000]
+        #datapoints = 271
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 3.4276e+10        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 123.569
+
+initial set of free parameter values
+
+A               = -2865.73
+B               = 23179.3
+C               = -37.3965
+sig             = -15.1023
+mu              = -321.371
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 3.4276e+10
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 266
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 11351.5
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.28857e+08
+
+BREAK:          Singular matrix in Invert_RtR
+
+
+
+*******************************************************************************
+Mon Apr  4 12:01:54 2016
+
+
+FIT:    data read from "../data/calibration/Ag.TKA"
+        format = z
+        x range restricted to [130.000 : 400.000]
+        #datapoints = 271
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2.20972e+13       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 124.191
+
+initial set of free parameter values
+
+A               = -2865.73
+B               = 23179.3
+C               = 1000
+sig             = 50
+mu              = 360
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 3.42662e+10
+rel. change during last iteration : -8.88236e-06
+
+degrees of freedom    (FIT_NDF)                        : 266
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 11349.9
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.2882e+08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A               = -3675.03         +/- 3.03e+09     (8.244e+07%)
+B               = 23279.4          +/- 9.571e+07    (4.111e+05%)
+C               = -36.6399         +/- 9.616e+04    (2.624e+05%)
+sig             = -1248.36         +/- 3.796e+08    (3.041e+07%)
+mu              = 3052.12          +/- 1.089e+09    (3.568e+07%)
+
+
+correlation matrix of the fit parameters:
+
+               A      B      C      sig    mu     
+A               1.000 
+B              -0.999  1.000 
+C              -0.999  1.000  1.000 
+sig             1.000 -1.000 -0.999  1.000 
+mu             -1.000  0.999  0.999 -1.000  1.000 
+
+
+*******************************************************************************
+Mon Apr  4 12:03:00 2016
+
+
+FIT:    data read from "../data/calibration/Ag.TKA"
+        format = z
+        x range restricted to [130.000 : 400.000]
+        #datapoints = 271
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.89921e+13       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 123.569
+
+initial set of free parameter values
+
+A               = 1e-30
+B               = 1
+C               = 1000
+sig             = 50
+mu              = 360
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 3.4276e+10
+rel. change during last iteration : -5.53832e-10
+
+degrees of freedom    (FIT_NDF)                        : 266
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 11351.5
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.28857e+08
+
+BREAK:          Singular matrix in Invert_RtR
+
