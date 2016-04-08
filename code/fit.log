@@ -37,3 +37,1226 @@ a1              1.000
 a2              0.205  1.000 
 b1              0.690  0.740  1.000 
 b2              0.136  0.873  0.593  1.000 
+
+
+*******************************************************************************
+Thu Apr 07 12:00:28 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: f(x)
+	f(x)=a*(1-1/(2*pi)*b/((x-c)**2+b**2/4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 4.1864709851e+04  0.00e+00 1.80e+01  1.850000e+01  1.000000e+00  2.000000e-01
+   4 5.0398467817e+03 -5.29e-01 1.80e-03  2.020719e+01  2.326134e+00 -8.126644e-03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 5039.85
+rel. change during last iteration : -5.29403e-006
+
+degrees of freedom    (FIT_NDF)                        : 197
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 5.05796
+variance of residuals (reduced chisquare) = WSSR/ndf   : 25.583
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 20.2072          +/- 0.3646       (1.805%)
+b               = 2.32613          +/- 0.1326       (5.703%)
+c               = -0.00812664      +/- 0.1287       (1583%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.847  1.000 
+c              -0.002  0.027  1.000 
+
+
+*******************************************************************************
+Thu Apr 07 12:00:55 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: f(x)
+	f(x)=a*(1-1/(2*pi)*b/((x-c)**2+b**2/4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 4.1864709851e+04  0.00e+00 1.80e+01  1.850000e+01  1.000000e+00  2.000000e-01
+   4 5.0398467817e+03 -5.29e-01 1.80e-03  2.020719e+01  2.326134e+00 -8.126644e-03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 5039.85
+rel. change during last iteration : -5.29403e-006
+
+degrees of freedom    (FIT_NDF)                        : 197
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 5.05796
+variance of residuals (reduced chisquare) = WSSR/ndf   : 25.583
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 20.2072          +/- 0.3646       (1.805%)
+b               = 2.32613          +/- 0.1326       (5.703%)
+c               = -0.00812664      +/- 0.1287       (1583%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.847  1.000 
+c              -0.002  0.027  1.000 
+
+
+*******************************************************************************
+Thu Apr 07 12:04:21 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: f(x)
+	f(x)=a*(1-1/(2*pi)*b/((x-c)**2+b**2/4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.2520713713e+04  0.00e+00 2.00e+01  1.850000e+01  1.000000e+00  2.000000e-01
+   6 1.7090437220e+03 -1.72e-02 2.00e-05  2.057763e+01  1.584416e+00  2.189230e-01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1709.04
+rel. change during last iteration : -1.7176e-007
+
+degrees of freedom    (FIT_NDF)                        : 197
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.94539
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.67535
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 20.5776          +/- 0.1365       (0.6635%)
+b               = 1.58442          +/- 0.03596      (2.27%)
+c               = 0.218923         +/- 0.01853      (8.463%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.523  1.000 
+c              -0.191  0.047  1.000 
+
+
+*******************************************************************************
+Thu Apr 07 12:06:01 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: f(x)
+	f(x)=a*(1-1/(2*pi)*b/((x-c)**2+b**2/4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.9421957246e+04  0.00e+00 1.83e+01  1.700000e+01  1.000000e+00  2.000000e-01
+   5 1.7090438060e+03 -8.84e-01 1.83e-04  2.057813e+01  1.584163e+00  2.189205e-01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1709.04
+rel. change during last iteration : -8.842e-006
+
+degrees of freedom    (FIT_NDF)                        : 197
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.94539
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.67535
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 20.5781          +/- 0.1365       (0.6634%)
+b               = 1.58416          +/- 0.03595      (2.269%)
+c               = 0.218921         +/- 0.01852      (8.461%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.523  1.000 
+c              -0.191  0.047  1.000 
+
+
+*******************************************************************************
+Thu Apr 07 12:07:33 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: f(x)
+	f(x)=a*(1-1/(2*pi)*b/((x-c)**2+b**2/4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 5.6446192005e+04  0.00e+00 2.11e+01  1.700000e+01  5.000000e-01  2.000000e-01
+   7 1.7090436758e+03 -1.26e-01 2.11e-06  2.057777e+01  1.584349e+00  2.189218e-01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 1709.04
+rel. change during last iteration : -1.25683e-006
+
+degrees of freedom    (FIT_NDF)                        : 197
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.94539
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.67535
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 20.5778          +/- 0.1365       (0.6635%)
+b               = 1.58435          +/- 0.03596      (2.27%)
+c               = 0.218922         +/- 0.01853      (8.463%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.523  1.000 
+c              -0.191  0.047  1.000 
+
+
+*******************************************************************************
+Thu Apr 07 12:25:51 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: f(x)
+	f(x)=(a-d/(2*pi)*b/((x-c)**2+(b**2)/4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 1.2703087184e+04  0.00e+00 2.19e+01  1.800000e+01  1.300000e+00  2.000000e-01  1.000000e+00
+   8 3.6928333597e+02 -2.21e-01 2.19e-07  1.789367e+01  5.857623e-01  1.833117e-01  6.627535e+00
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 369.283
+rel. change during last iteration : -2.21327e-006
+
+degrees of freedom    (FIT_NDF)                        : 196
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.37262
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.8841
+p-value of the Chisq distribution (FIT_P)              : 9.55902e-013
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 17.8937          +/- 0.08241      (0.4606%)
+b               = 0.585762         +/- 0.02072      (3.538%)
+c               = 0.183312         +/- 0.0049       (2.673%)
+d               = 6.62754          +/- 0.242        (3.652%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b               0.686  1.000 
+c              -0.014  0.038  1.000 
+d               0.861  0.880  0.022  1.000 
+
+
+*******************************************************************************
+Thu Apr 07 12:27:21 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: f(x)
+	f(x)=a(1-d/(2*pi)*b/((x-c)**2+(b**2)/4))
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Thu Apr 07 12:27:38 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: f(x)
+	f(x)=a*(1-d/(2*pi)*b/((x-c)**2+(b**2)/4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 8.7139080920e+03  0.00e+00 1.83e+01  1.800000e+01  1.300000e+00  2.000000e-01  1.000000e+00
+   7 3.6928333288e+02 -2.18e-01 1.83e-06  1.789361e+01  5.857405e-01  1.833157e-01  3.703731e-01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 369.283
+rel. change during last iteration : -2.17722e-006
+
+degrees of freedom    (FIT_NDF)                        : 196
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.37262
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.8841
+p-value of the Chisq distribution (FIT_P)              : 9.55902e-013
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 17.8936          +/- 0.08241      (0.4606%)
+b               = 0.585741         +/- 0.02072      (3.538%)
+c               = 0.183316         +/- 0.0049       (2.673%)
+d               = 0.370373         +/- 0.01209      (3.264%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b               0.686  1.000 
+c              -0.014  0.038  1.000 
+d               0.822  0.888  0.026  1.000 
+
+
+*******************************************************************************
+Thu Apr 07 13:48:46 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) yerror
+        format = x:z:s
+        x range restricted to [-1.20000 : 1.20000]
+        #datapoints = 174
+function used for fitting: f(x)
+	f(x)=a*(1-d/(2*pi)*b/((x-c)**2+(b**2)/4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 8.5902076482e+03  0.00e+00 1.80e+01  1.800000e+01  1.300000e+00  2.000000e-01  1.000000e+00
+   7 3.4226671278e+02 -1.86e-01 1.80e-06  1.797779e+01  6.005904e-01  1.839947e-01  3.806616e-01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 342.267
+rel. change during last iteration : -1.86055e-006
+
+degrees of freedom    (FIT_NDF)                        : 170
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.41892
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.01333
+p-value of the Chisq distribution (FIT_P)              : 1.11133e-013
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 17.9778          +/- 0.1125       (0.626%)
+b               = 0.60059          +/- 0.02448      (4.077%)
+c               = 0.183995         +/- 0.00511      (2.777%)
+d               = 0.380662         +/- 0.01521      (3.996%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b               0.764  1.000 
+c              -0.022  0.028  1.000 
+d               0.880  0.913  0.015  1.000 
+
+
+*******************************************************************************
+Thu Apr 07 13:52:23 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) yerror
+        format = x:z:s
+        x range restricted to [-0.800000 : 1.20000]
+        #datapoints = 153
+function used for fitting: f(x)
+	f(x)=a*(1-d/(2*pi)*b/((x-c)**2+(b**2)/4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 8.3193108976e+03  0.00e+00 1.78e+01  1.800000e+01  1.300000e+00  2.000000e-01  1.000000e+00
+   6 3.3296800170e+02 -5.71e-01 1.78e-05  1.812568e+01  6.231695e-01  1.851454e-01  3.973574e-01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 332.968
+rel. change during last iteration : -5.70923e-006
+
+degrees of freedom    (FIT_NDF)                        : 149
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.49489
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.23468
+p-value of the Chisq distribution (FIT_P)              : 4.44089e-016
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 18.1257          +/- 0.1614       (0.8905%)
+b               = 0.623169         +/- 0.03023      (4.851%)
+c               = 0.185145         +/- 0.005432     (2.934%)
+d               = 0.397357         +/- 0.02021      (5.087%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b               0.826  1.000 
+c              -0.009  0.034  1.000 
+d               0.922  0.935  0.021  1.000 
+
+
+*******************************************************************************
+Thu Apr 07 13:53:01 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) yerror
+        format = x:z:s
+        x range restricted to [-0.600000 : 1.00000]
+        #datapoints = 133
+function used for fitting: f(x)
+	f(x)=a*(1-d/(2*pi)*b/((x-c)**2+(b**2)/4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 7.6082336967e+03  0.00e+00 1.77e+01  1.800000e+01  1.300000e+00  2.000000e-01  1.000000e+00
+   8 3.1560928765e+02 -3.96e-01 1.77e-06  1.785255e+01  5.859777e-01  1.835984e-01  3.686868e-01
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 315.609
+rel. change during last iteration : -3.95768e-006
+
+degrees of freedom    (FIT_NDF)                        : 129
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.56416
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.44658
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 17.8525          +/- 0.2115       (1.185%)
+b               = 0.585978         +/- 0.03467      (5.917%)
+c               = 0.183598         +/- 0.005638     (3.071%)
+d               = 0.368687         +/- 0.0239       (6.481%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b               0.857  1.000 
+c              -0.031  0.006  1.000 
+d               0.941  0.945 -0.008  1.000 
+
+
+*******************************************************************************
+Thu Apr 07 13:53:42 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) yerror
+        format = x:z:s
+        x range restricted to [-0.100000 : 0.400000]
+        #datapoints = 50
+function used for fitting: f(x)
+	f(x)=a*(1-d/(2*pi)*b/((x-c)**2+(b**2)/4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.2840805059e+03  0.00e+00 1.87e+01  1.800000e+01  1.300000e+00  2.000000e-01  1.000000e+00
+  14 1.0386313602e+02 -4.80e-01 1.87e-12  1.805810e+01  4.813732e-01  1.607130e-01  3.233367e-01
+
+After 14 iterations the fit converged.
+final sum of squares of residuals : 103.863
+rel. change during last iteration : -4.80454e-006
+
+degrees of freedom    (FIT_NDF)                        : 46
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.50263
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.25789
+p-value of the Chisq distribution (FIT_P)              : 2.31686e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 18.0581          +/- 2.014        (11.15%)
+b               = 0.481373         +/- 0.1146       (23.82%)
+c               = 0.160713         +/- 0.005102     (3.175%)
+d               = 0.323337         +/- 0.1204       (37.24%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b               0.981  1.000 
+c              -0.111 -0.104  1.000 
+d               0.996  0.993 -0.108  1.000 
+
+
+*******************************************************************************
+Thu Apr 07 13:54:55 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) yerror
+        format = x:z:s
+        x range restricted to [-0.00000 : 0.300000]
+        #datapoints = 30
+function used for fitting: f(x)
+	f(x)=a*(1-d/(2*pi)*b/((x-c)**2+(b**2)/4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 7.2010074461e+02  0.00e+00 1.93e+01  1.800000e+01  1.300000e+00  2.000000e-01  1.000000e+00
+  72 3.0006285336e+01 -3.89e-01 1.93e-04  1.317506e+01  1.958800e-01  1.366255e-01  7.327065e-02
+
+After 72 iterations the fit converged.
+final sum of squares of residuals : 30.0063
+rel. change during last iteration : -3.89303e-006
+
+degrees of freedom    (FIT_NDF)                        : 26
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.07428
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.15409
+p-value of the Chisq distribution (FIT_P)              : 0.267351
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 13.1751          +/- 0.6865       (5.211%)
+b               = 0.19588          +/- 0.05465      (27.9%)
+c               = 0.136625         +/- 0.005083     (3.72%)
+d               = 0.0732706        +/- 0.03         (40.94%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b               0.943  1.000 
+c               0.136  0.102  1.000 
+d               0.987  0.976  0.121  1.000 
+
+
+*******************************************************************************
+Thu Apr 07 13:55:08 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) yerror
+        format = x:z:s
+        x range restricted to [-0.00000 : 0.300000]
+        #datapoints = 30
+function used for fitting: f(x)
+	f(x)=a*(1-d/(2*pi)*b/((x-c)**2+(b**2)/4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 7.2010074461e+02  0.00e+00 1.93e+01  1.800000e+01  1.300000e+00  2.000000e-01  1.000000e+00
+  72 3.0006285336e+01 -3.89e-01 1.93e-04  1.317506e+01  1.958800e-01  1.366255e-01  7.327065e-02
+
+After 72 iterations the fit converged.
+final sum of squares of residuals : 30.0063
+rel. change during last iteration : -3.89303e-006
+
+degrees of freedom    (FIT_NDF)                        : 26
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.07428
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.15409
+p-value of the Chisq distribution (FIT_P)              : 0.267351
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 13.1751          +/- 0.6865       (5.211%)
+b               = 0.19588          +/- 0.05465      (27.9%)
+c               = 0.136625         +/- 0.005083     (3.72%)
+d               = 0.0732706        +/- 0.03         (40.94%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b               0.943  1.000 
+c               0.136  0.102  1.000 
+d               0.987  0.976  0.121  1.000 
+
+
+*******************************************************************************
+Thu Apr 07 13:56:26 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: f(x)
+	f(x)=a*(1-d/(2*pi)*b/((x-c)**2+(b**2)/4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 8.7139080920e+03  0.00e+00 1.83e+01  1.800000e+01  1.300000e+00  2.000000e-01  1.000000e+00
+   7 3.6928333288e+02 -2.18e-01 1.83e-06  1.789361e+01  5.857405e-01  1.833157e-01  3.703731e-01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 369.283
+rel. change during last iteration : -2.17722e-006
+
+degrees of freedom    (FIT_NDF)                        : 196
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.37262
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.8841
+p-value of the Chisq distribution (FIT_P)              : 9.55902e-013
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 17.8936          +/- 0.08241      (0.4606%)
+b               = 0.585741         +/- 0.02072      (3.538%)
+c               = 0.183316         +/- 0.0049       (2.673%)
+d               = 0.370373         +/- 0.01209      (3.264%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b               0.686  1.000 
+c              -0.014  0.038  1.000 
+d               0.822  0.888  0.026  1.000 
+
+
+*******************************************************************************
+Thu Apr 07 14:02:07 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: f(x)
+	f(x)=2*a/(1+exp(b*(x-c)))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 2.6915244868e+05  0.00e+00 1.07e+00  1.000000e+00 -2.000000e+00  1.000000e+00  1.000000e+00
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Thu Apr 07 14:18:19 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" 	u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) 	yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: asymvoigt(x)
+	asymvoigt(x)=f*gauss(x)+(f-1)*lorentz(x)
+	gauss(x)=A/gam(x)*sqrt(4*ln(2)/pi)*exp(-4*ln(2)*((x-x0)/gam(x))**2)
+	gam(x)=2*gam0/(1+exp(e*(x-x0)))
+	lorentz(x)=(baseline-A/(2*pi)*gam(x)/((x-x0)**2+(gam(x)**2)/4))
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Thu Apr 07 14:19:15 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" 	u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) 	yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: asymvoigt(x)
+	asymvoigt(x)=f*gauss(x)+(f-1)*lorentz(x)
+	gauss(x)=A/gam(x)*sqrt(4*ln(2)/pi)*exp(-4*ln(2)*((x-x0)/gam(x))**2)
+	gam(x)=2*gam0/(1+exp(e*(x-x0)))
+	lorentz(x)=(baseline-A/(2*pi)*gam(x)/((x-x0)**2+(gam(x)**2)/4))
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Thu Apr 07 14:19:32 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" 	u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) 	yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: asymvoigt(x)
+	asymvoigt(x)=f*gauss(x)+(f-1)*lorentz(x)
+	gauss(x)=A/gam(x)*sqrt(4*log(2)/pi)*exp(-4*log(2)*((x-x0)/gam(x))**2)
+	gam(x)=2*gam0/(1+exp(e*(x-x0)))
+	lorentz(x)=(baseline-A/(2*pi)*gam(x)/((x-x0)**2+(gam(x)**2)/4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   gam0          x0            baseline      A             f             e            
+   0 2.7443230558e+05  0.00e+00 1.31e+00  1.000000e+00  1.000000e+00  1.000000e+00  1.000000e+00  1.000000e+00  1.000000e+00
+
+
+*******************************************************************************
+Thu Apr 07 14:19:42 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" 	u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) 	yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: asymvoigt(x)
+	asymvoigt(x)=f*gauss(x)+(f-1)*lorentz(x)
+	gauss(x)=A/gam(x)*sqrt(4*log(2)/pi)*exp(-4*log(2)*((x-x0)/gam(x))**2)
+	gam(x)=2*gam0/(1+exp(e*(x-x0)))
+	lorentz(x)=(baseline-A/(2*pi)*gam(x)/((x-x0)**2+(gam(x)**2)/4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   gam0          x0            baseline      A             f             e            
+   0 2.7443230558e+05  0.00e+00 1.31e+00  1.000000e+00  1.000000e+00  1.000000e+00  1.000000e+00  1.000000e+00  1.000000e+00
+
+
+*******************************************************************************
+Thu Apr 07 14:19:43 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" 	u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) 	yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: asymvoigt(x)
+	asymvoigt(x)=f*gauss(x)+(f-1)*lorentz(x)
+	gauss(x)=A/gam(x)*sqrt(4*log(2)/pi)*exp(-4*log(2)*((x-x0)/gam(x))**2)
+	gam(x)=2*gam0/(1+exp(e*(x-x0)))
+	lorentz(x)=(baseline-A/(2*pi)*gam(x)/((x-x0)**2+(gam(x)**2)/4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   gam0          x0            baseline      A             f             e            
+   0 2.7443230558e+05  0.00e+00 1.31e+00  1.000000e+00  1.000000e+00  1.000000e+00  1.000000e+00  1.000000e+00  1.000000e+00
+
+
+*******************************************************************************
+Thu Apr 07 14:19:58 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" 	u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) 	yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: asymvoigt(x)
+	asymvoigt(x)=f*gauss(x)+(f-1)*lorentz(x)
+	gauss(x)=A/gam(x)*sqrt(4*log(2)/pi)*exp(-4*log(2)*((x-x0)/gam(x))**2)
+	gam(x)=2*gam0/(1+exp(e*(x-x0)))
+	lorentz(x)=(baseline-A/(2*pi)*gam(x)/((x-x0)**2+(gam(x)**2)/4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   gam0          x0            baseline      A             f             e            
+   0 2.7443230558e+05  0.00e+00 1.31e+00  1.000000e+00  1.000000e+00  1.000000e+00  1.000000e+00  1.000000e+00  1.000000e+00
+
+
+*******************************************************************************
+Thu Apr 07 14:20:49 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" 	u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) 	yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: asymvoigt(x)
+	asymvoigt(x)=f*gauss(x)+(f-1)*lorentz(x)
+	gauss(x)=A/gam(x)*sqrt(4*log(2)/pi)*exp(-4*log(2)*((x-x0)/gam(x))**2)
+	gam(x)=2*gam0/(1+exp(e*(x-x0)))
+	lorentz(x)=(baseline-A/(2*pi)*gam(x)/((x-x0)**2+(gam(x)**2)/4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   gam0          x0            baseline      A             f             e            
+   0 2.7622303695e+05  0.00e+00 1.69e+01  5.000000e-01  2.000000e-01  1.700000e+01  5.000000e-01  1.000000e+00  2.000000e+00
+ 295 4.6300462354e+02  0.00e+00 1.69e+01  6.512403e-01  1.942844e-01  7.722957e+01 -3.911562e+00  1.223992e+00 -2.744981e-01
+
+The fit was stopped by the user after 295 iterations.
+final sum of squares of residuals : 463.005
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 194
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.54487
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.38662
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+gam0            = 0.65124          +/- 0.01803      (2.769%)
+x0              = 0.194284         +/- 0.006516     (3.354%)
+baseline        = 77.2296          +/- 116.7        (151.1%)
+A               = -3.91156         +/- 0.5002       (12.79%)
+f               = 1.22399          +/- 0.3372       (27.55%)
+e               = -0.274498        +/- 0.1357       (49.45%)
+
+correlation matrix of the fit parameters:
+                gam0   x0     baseli A      f      e      
+gam0            1.000 
+x0              0.160  1.000 
+baseline       -0.136  0.031  1.000 
+A              -0.051 -0.059 -0.971  1.000 
+f               0.137 -0.031 -1.000  0.970  1.000 
+e              -0.111  0.297 -0.193  0.210  0.193  1.000 
+
+
+*******************************************************************************
+Thu Apr 07 14:22:00 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" 	u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) 	yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: asymvoigt(x)
+	asymvoigt(x)=f*gauss(x)+(f-1)*lorentz(x)
+	gauss(x)=A/gam(x)*sqrt(4*log(2)/pi)*exp(-4*log(2)*((x-x0)/gam(x))**2)
+	gam(x)=2*gam0/(1+exp(e*(x-x0)))
+	lorentz(x)=(baseline-A/(2*pi)*gam(x)/((x-x0)**2+(gam(x)**2)/4))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   gam0          x0            baseline      A             f             e            
+   0 2.7622303695e+05  0.00e+00 1.69e+01  5.000000e-01  2.000000e-01  1.700000e+01  5.000000e-01  1.000000e+00  2.000000e+00
+1031 4.5459116095e+02 -1.00e+00 1.69e+00  6.486609e-01  1.937584e-01  1.306529e+02 -4.041717e+00  1.132609e+00 -2.919504e-01
+
+After 1031 iterations the fit converged.
+final sum of squares of residuals : 454.591
+rel. change during last iteration : -9.9991e-006
+
+degrees of freedom    (FIT_NDF)                        : 194
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.53077
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.34325
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+gam0            = 0.648661         +/- 0.01806      (2.784%)
+x0              = 0.193758         +/- 0.006403     (3.305%)
+baseline        = 130.653          +/- 306          (234.2%)
+A               = -4.04172         +/- 0.4919       (12.17%)
+f               = 1.13261          +/- 0.3098       (27.36%)
+e               = -0.29195         +/- 0.1378       (47.19%)
+
+correlation matrix of the fit parameters:
+                gam0   x0     baseli A      f      e      
+gam0            1.000 
+x0              0.164  1.000 
+baseline       -0.137  0.038  1.000 
+A              -0.061 -0.068 -0.968  1.000 
+f               0.138 -0.038 -1.000  0.967  1.000 
+e              -0.109  0.282 -0.197  0.214  0.197  1.000 
+
+
+*******************************************************************************
+Thu Apr 07 15:09:21 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" 	u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) 	yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: fitfunc(x)
+	fitfunc(x)=baseline*(1-asymvoigt(x))
+	asymvoigt(x)=f*gauss(x)+(f-1)*lorentz(x)
+	gauss(x)=A/gam(x)*sqrt(4*log(2)/pi)*exp(-4*log(2)*((x-x0)/gam(x))**2)
+	gam(x)=2*gam0/(1+exp(skew*(x-x0)))
+	lorentz(x)=A/(2*pi)*gam(x)/((x-x0)**2+(gam(x)**2)/4)
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'skew' is zero.
+iter      chisq       delta/lim  lambda   gam0          x0            baseline      A             f             skew         
+   0 1.6143743196e+03  0.00e+00 1.94e+01  6.400000e-01  2.000000e-01  1.700000e+01  1.000000e+00  5.000000e-01  1.000000e-30
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Thu Apr 07 15:14:07 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" 	u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) 	yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: fitfunc(x)
+	fitfunc(x)=baseline*(1-asymvoigt(x))
+	asymvoigt(x)=f*gauss(x)+(f-1)*lorentz(x)
+	gauss(x)=A/gam(x)*sqrt(4*log(2)/pi)*exp(-4*log(2)*((x-x0)/gam(x))**2)
+	gam(x)=2*gam0/(1+exp(skew*(x-x0)))
+	lorentz(x)=A/(2*pi)*gam(x)/((x-x0)**2+(gam(x)**2)/4)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   gam0          x0            baseline      A             f             skew         
+   0 6.3127312996e+02  0.00e+00 1.66e+01  6.400000e-01  2.000000e-01  1.700000e+01  3.000000e-01  9.000000e-01 -1.000000e+00
+ 384 3.9573325056e+02 -1.71e-01 1.66e-01  6.206710e-01  1.898472e-01  1.751521e+01  3.632396e-02  4.411092e+00 -4.764775e-01
+
+After 384 iterations the fit converged.
+final sum of squares of residuals : 395.733
+rel. change during last iteration : -1.71319e-006
+
+degrees of freedom    (FIT_NDF)                        : 194
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.42824
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.03986
+p-value of the Chisq distribution (FIT_P)              : 6.66134e-016
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+gam0            = 0.620671         +/- 0.01857      (2.993%)
+x0              = 0.189847         +/- 0.005641     (2.971%)
+baseline        = 17.5152          +/- 0.1086       (0.6201%)
+A               = 0.036324         +/- 0.09339      (257.1%)
+f               = 4.41109          +/- 10.35        (234.5%)
+skew            = -0.476478        +/- 0.1642       (34.46%)
+
+correlation matrix of the fit parameters:
+                gam0   x0     baseli A      f      skew   
+gam0            1.000 
+x0              0.197  1.000 
+baseline        0.241  0.133  1.000 
+A               0.169 -0.099 -0.754  1.000 
+f              -0.160  0.101  0.759 -1.000  1.000 
+skew           -0.080  0.128 -0.138  0.232 -0.233  1.000 
+
+
+*******************************************************************************
+Thu Apr 07 16:09:43 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" 	u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) 	yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: fitfunc(x)
+	fitfunc(x)=baseline*(1-voigt(x-x0,gam0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   gam0          x0            baseline      A            
+   0 3.8720548983e+04  0.00e+00 1.30e+01  6.000000e-01  1.800000e-01  1.751000e+01  3.000000e-01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Thu Apr 07 16:09:54 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" 	u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) 	yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: fitfunc(x)
+	fitfunc(x)=baseline*(1-voigt(x-x0,gam0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   gam0          x0            baseline      A            
+   0 3.8720548983e+04  0.00e+00 1.30e+01  6.000000e-01  1.800000e-01  1.751000e+01  3.000000e-01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Thu Apr 07 16:10:35 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" 	u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) 	yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: fitfunc(x)
+	fitfunc(x)=baseline*(1-voigt(x-x0,gam0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   gam0          x0            baseline     
+   0 3.8720548983e+04  0.00e+00 1.50e+01  6.000000e-01  1.800000e-01  1.751000e+01
+   4 3.5305138748e+03 -4.23e-01 1.50e-03  1.122942e+00  2.578964e-01  2.279005e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 3530.51
+rel. change during last iteration : -4.2268e-006
+
+degrees of freedom    (FIT_NDF)                        : 197
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.23337
+variance of residuals (reduced chisquare) = WSSR/ndf   : 17.9214
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+gam0            = 1.12294          +/- 0.05339      (4.755%)
+x0              = 0.257896         +/- 0.04946      (19.18%)
+baseline        = 22.7901          +/- 0.3289       (1.443%)
+
+correlation matrix of the fit parameters:
+                gam0   x0     baseli 
+gam0            1.000 
+x0              0.125  1.000 
+baseline       -0.814 -0.274  1.000 
+
+
+*******************************************************************************
+Thu Apr 07 16:12:34 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" 	u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) 	yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: fitfunc(x)
+	fitfunc(x)=baseline*(1-A*voigt(x-x0,gam0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   gam0          x0            baseline     
+   0 4.2562842898e+03  0.00e+00 2.14e+01  6.000000e-01  1.800000e-01  1.751000e+01
+   4 2.1531619919e+03 -9.38e-01 2.14e-03 -8.211908e-02  2.277475e-01  1.926995e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2153.16
+rel. change during last iteration : -9.38437e-006
+
+degrees of freedom    (FIT_NDF)                        : 197
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.30602
+variance of residuals (reduced chisquare) = WSSR/ndf   : 10.9298
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+gam0            = -0.0821191       +/- 0.02468      (30.05%)
+x0              = 0.227748         +/- 0.0247       (10.85%)
+baseline        = 19.2699          +/- 0.1484       (0.7701%)
+
+correlation matrix of the fit parameters:
+                gam0   x0     baseli 
+gam0            1.000 
+x0              0.062  1.000 
+baseline       -0.558 -0.220  1.000 
+
+
+*******************************************************************************
+Thu Apr 07 16:25:24 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" 	u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) 	yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: fitfunc(x)
+	fitfunc(x)=baseline*(1-A*lorentz(x))
+	lorentz(x)=A/(2*pi)*gam0/((x-x0)**2+(gam(x)**2)/4)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Thu Apr 07 16:26:04 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" 	u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) 	yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: fitfunc(x)
+	fitfunc(x)=baseline*(1-A*lorentz(x))
+	lorentz(x)=A/(2*pi)*gam0/((x-x0)**2+(gam0**2)/4)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   gam0          x0            baseline     
+   0 6.8343174417e+04  0.00e+00 9.18e+01  1.000000e-02  1.800000e-01  1.751000e+01
+  11 2.5839980997e+03 -1.45e-01 9.18e-10  1.689559e-01  1.490963e-01  1.608594e+01
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 2584
+rel. change during last iteration : -1.4461e-006
+
+degrees of freedom    (FIT_NDF)                        : 197
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.6217
+variance of residuals (reduced chisquare) = WSSR/ndf   : 13.1167
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+gam0            = 0.168956         +/- 0.01712      (10.13%)
+x0              = 0.149096         +/- 0.008622     (5.783%)
+baseline        = 16.0859          +/- 0.1099       (0.683%)
+
+correlation matrix of the fit parameters:
+                gam0   x0     baseli 
+gam0            1.000 
+x0             -0.008  1.000 
+baseline       -0.009  0.002  1.000 
+
+
+*******************************************************************************
+Thu Apr 07 16:27:03 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" 	u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) 	yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: fitfunc(x)
+	fitfunc(x)=baseline*(1-A*lorentz(x))
+	lorentz(x)=A/(2*pi)*gam0/((x-x0)**2+(gam0**2)/4)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   gam0          x0            baseline      A            
+   0 6.8343174417e+04  0.00e+00 8.17e+01  1.000000e-02  1.800000e-01  1.751000e+01  3.000000e-01
+  11 3.6928345423e+02 -7.51e-01 8.17e-10  5.856593e-01  1.832982e-01  1.789340e+01  6.085483e-01
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 369.283
+rel. change during last iteration : -7.50786e-006
+
+degrees of freedom    (FIT_NDF)                        : 196
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.37262
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.8841
+p-value of the Chisq distribution (FIT_P)              : 9.55791e-013
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+gam0            = 0.585659         +/- 0.02072      (3.538%)
+x0              = 0.183298         +/- 0.0049       (2.673%)
+baseline        = 17.8934          +/- 0.0824       (0.4605%)
+A               = 0.608548         +/- 0.009925     (1.631%)
+
+correlation matrix of the fit parameters:
+                gam0   x0     baseli A      
+gam0            1.000 
+x0              0.038  1.000 
+baseline        0.686 -0.014  1.000 
+A               0.888  0.026  0.822  1.000 
+
+
+*******************************************************************************
+Thu Apr 07 16:30:42 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" 	u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) 	yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: fitfunc(x)
+	fitfunc(x)=baseline(1-f*lorentz(x)-(1-f)*gauss(x))
+	lorentz(x)=A/(2*pi)*gam0/((x-x0)**2+(gam0**2)/4)
+	gauss(x)=A/gam(x)*sqrt(4*log(2)/pi)*exp(-4*log(2)*((x-x0)/gam0)**2)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Thu Apr 07 16:31:01 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" 	u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) 	yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: fitfunc(x)
+	fitfunc(x)=baseline(1-f*lorentz(x)-(1-f)*gauss(x))
+	lorentz(x)=A/(2*pi)*gam0/((x-x0)**2+(gam0**2)/4)
+	gauss(x)=A/gam0*sqrt(4*log(2)/pi)*exp(-4*log(2)*((x-x0)/gam0)**2)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Thu Apr 07 16:31:25 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" 	u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) 	yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: fitfunc(x)
+	fitfunc(x)=baseline*(1-f*lorentz(x)-(1-f)*gauss(x))
+	lorentz(x)=A/(2*pi)*gam0/((x-x0)**2+(gam0**2)/4)
+	gauss(x)=A/gam0*sqrt(4*log(2)/pi)*exp(-4*log(2)*((x-x0)/gam0)**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   gam0          x0            baseline      A            
+   0 7.5165814018e+05  0.00e+00 2.59e+02  1.000000e-02  1.800000e-01  1.751000e+01  3.000000e-01
+  11 3.6928330151e+02 -7.90e-02 2.59e-09  5.857757e-01  1.833253e-01  1.789370e+01  3.703912e-01
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 369.283
+rel. change during last iteration : -7.90184e-007
+
+degrees of freedom    (FIT_NDF)                        : 196
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.37262
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.8841
+p-value of the Chisq distribution (FIT_P)              : 9.55902e-013
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+gam0            = 0.585776         +/- 0.02072      (3.538%)
+x0              = 0.183325         +/- 0.0049       (2.673%)
+baseline        = 17.8937          +/- 0.08241      (0.4606%)
+A               = 0.370391         +/- 0.01209      (3.264%)
+
+correlation matrix of the fit parameters:
+                gam0   x0     baseli A      
+gam0            1.000 
+x0              0.038  1.000 
+baseline        0.686 -0.014  1.000 
+A               0.888  0.026  0.822  1.000 
+
+
+*******************************************************************************
+Thu Apr 07 16:31:37 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" 	u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) 	yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: fitfunc(x)
+	fitfunc(x)=baseline*(1-f*lorentz(x)-(1-f)*gauss(x))
+	lorentz(x)=A/(2*pi)*gam0/((x-x0)**2+(gam0**2)/4)
+	gauss(x)=A/gam0*sqrt(4*log(2)/pi)*exp(-4*log(2)*((x-x0)/gam0)**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   gam0          x0            baseline      A             f            
+   0 7.5165814018e+05  0.00e+00 2.32e+02  1.000000e-02  1.800000e-01  1.751000e+01  3.000000e-01  1.000000e+00
+  31 3.6723265194e+02 -7.08e-01 2.32e-21  5.683251e-01  1.808429e-01  1.796239e+01  3.865654e-01  1.107230e+00
+
+After 31 iterations the fit converged.
+final sum of squares of residuals : 367.233
+rel. change during last iteration : -7.08055e-006
+
+degrees of freedom    (FIT_NDF)                        : 195
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.37231
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.88324
+p-value of the Chisq distribution (FIT_P)              : 1.13043e-012
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+gam0            = 0.568325         +/- 0.02207      (3.884%)
+x0              = 0.180843         +/- 0.004777     (2.642%)
+baseline        = 17.9624          +/- 0.113        (0.6289%)
+A               = 0.386565         +/- 0.02099      (5.43%)
+f               = 1.10723          +/- 0.07474      (6.75%)
+
+correlation matrix of the fit parameters:
+                gam0   x0     baseli A      f      
+gam0            1.000 
+x0              0.011  1.000 
+baseline        0.406  0.022  1.000 
+A               0.410  0.053  0.904  1.000 
+f              -0.202  0.057  0.641  0.769  1.000 
+
+
+*******************************************************************************
+Thu Apr 07 16:38:21 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" 	u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) 	yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: fitfunc(x)
+	fitfunc(x)=baseline*(1-lorentz(x))
+	lorentz(x)=A/(2*pi)*gam0/((x-x0)**2+(gam0**2)/4)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   gam0          x0            baseline      A            
+   0 7.5165814018e+05  0.00e+00 2.59e+02  1.000000e-02  1.800000e-01  1.751000e+01  3.000000e-01
+  11 3.6928330151e+02 -7.90e-02 2.59e-09  5.857757e-01  1.833253e-01  1.789370e+01  3.703912e-01
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 369.283
+rel. change during last iteration : -7.90184e-007
+
+degrees of freedom    (FIT_NDF)                        : 196
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.37262
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.8841
+p-value of the Chisq distribution (FIT_P)              : 9.55902e-013
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+gam0            = 0.585776         +/- 0.02072      (3.538%)
+x0              = 0.183325         +/- 0.0049       (2.673%)
+baseline        = 17.8937          +/- 0.08241      (0.4606%)
+A               = 0.370391         +/- 0.01209      (3.264%)
+
+correlation matrix of the fit parameters:
+                gam0   x0     baseli A      
+gam0            1.000 
+x0              0.038  1.000 
+baseline        0.686 -0.014  1.000 
+A               0.888  0.026  0.822  1.000 
+
+
+*******************************************************************************
+Thu Apr 07 17:24:15 2016
+
+
+FIT:    data read from "../data/steel/full_measure.csv" 	u 1:($3/$2*1000-29.7839):(sqrt(sqrt($3)/$2*1000)**2+0.16**2) 	yerror
+        format = x:z:s
+        #datapoints = 200
+function used for fitting: fitfunc(x)
+	fitfunc(x)=baseline*(1-lorentz(x))
+	lorentz(x)=A/(2*pi)*gam0/((x-x0)**2+(gam0**2)/4)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   gam0          x0            baseline      A            
+   0 7.5165814018e+05  0.00e+00 2.59e+02  1.000000e-02  1.800000e-01  1.751000e+01  3.000000e-01
+  11 3.6928330151e+02 -7.90e-02 2.59e-09  5.857757e-01  1.833253e-01  1.789370e+01  3.703912e-01
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 369.283
+rel. change during last iteration : -7.90184e-007
+
+degrees of freedom    (FIT_NDF)                        : 196
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.37262
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.8841
+p-value of the Chisq distribution (FIT_P)              : 9.55902e-013
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+gam0            = 0.585776         +/- 0.02072      (3.538%)
+x0              = 0.183325         +/- 0.0049       (2.673%)
+baseline        = 17.8937          +/- 0.08241      (0.4606%)
+A               = 0.370391         +/- 0.01209      (3.264%)
+
+correlation matrix of the fit parameters:
+                gam0   x0     baseli A      
+gam0            1.000 
+x0              0.038  1.000 
+baseline        0.686 -0.014  1.000 
+A               0.888  0.026  0.822  1.000 
