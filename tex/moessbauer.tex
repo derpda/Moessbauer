@@ -1,0 +1,40 @@
+\documentclass[11pt, paper=a4]{scrartcl}
+
+% CONFIG
+\newcommand{\exptitle}{Moessbauer effect}       % long name of experiment 
+\newcommand{\exptitleshort}{Moessbauer effect} % short name of experiment
+\newcommand{\expdate}{04.04.2016}           % date of experiment
+\newcommand{\exptutor}{Veronika Magerl}
+
+\input{Vorspann}
+
+
+\pagenumbering{Roman}
+\setcounter{page}{1}
+
+
+%\input{abstract}
+\tableofcontents
+
+\newpage
+\listoffigures
+\thispagestyle{empty}
+
+\newpage
+\hypersetup{pageanchor=false} %stop page numbering (hyperref) to prevent for double page numers
+
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\input{physicalprinciples}
+
+\newpage
+\bibliographystyle{plain}
+\bibliography{refs}
+\begin{thebibliography}{9}
+	
+\end{thebibliography}
+
+
+\end{document}
