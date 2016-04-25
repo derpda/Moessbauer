@@ -1260,3 +1260,42 @@ gam0            1.000
 x0              0.038  1.000 
 baseline        0.686 -0.014  1.000 
 A               0.888  0.026  0.822  1.000 
+
+
+*******************************************************************************
+Sat Apr 23 18:38:37 2016
+
+
+FIT:    data read from "../data/background/data.csv" u 1:2:3:4 xyerror
+        format = x:z:sx:s
+        #datapoints = 20
+function used for fitting: f(x)
+	f(x)=a1*exp(-b1*x)+a2*exp(-b2*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a1            a2            b1            b2           
+   0 6.7813135747e+01  0.00e+00 6.04e+01  1.660000e+01  2.960000e+01  1.800000e+00  3.000000e-02
+   4 1.6031693188e+01 -1.23e-01 6.04e-01  1.669449e+01  2.978391e+01  1.913928e+00  3.333108e-02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 16.0317
+rel. change during last iteration : -1.22971e-006
+
+degrees of freedom    (FIT_NDF)                        : 16
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.00099
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.00198
+p-value of the Chisq distribution (FIT_P)              : 0.450751
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a1              = 16.6945          +/- 0.6449       (3.863%)
+a2              = 29.7839          +/- 0.1605       (0.5388%)
+b1              = 1.91393          +/- 0.1022       (5.342%)
+b2              = 0.0333311        +/- 0.0007817    (2.345%)
+
+correlation matrix of the fit parameters:
+                a1     a2     b1     b2     
+a1              1.000 
+a2              0.205  1.000 
+b1              0.690  0.740  1.000 
+b2              0.136  0.873  0.593  1.000 
