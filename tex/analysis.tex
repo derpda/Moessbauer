@@ -68,15 +68,16 @@ v_0 & 0.179463 & 0.00501016\\
 A & 5.81316 & 0.39683 &\\
 \end{array}$
 
-\paragraph{Isomeric shift} \ \\
+\subsubsection{Isomeric shift} \ \\
 From the parameter $v_0$ one can calculate the isomeric shift with equation \ref{eq:diffdopplershift}:
 \begin{equation}
 E_iso = (8.614\pm0.24)*10^-9 eV
 \end{equation}
-\paragraph{Effective absorber thickness} \ \\
+\subsubsection{Effective absorber thickness} \ \\
 The effective absorber thickness is given by \cite{anleitung}:
 \begin{equation}
 T_A = f_An_A\beta\sigma_0d_A
+\label{eq:effective absorber thickness}
 \end{equation}
 where $d_A = 25\mu m$ is the absorber thickness, $n_A$ is the number of iron atoms per volume, $\beta=0.022$ the ratio of Fe-57 in the isotope mixture, $\sigma_0$ the cross section and $f_A=0.8$ the Debye-Waller-factor of the absorber.
 To calculate $n_A$ literature values are used (\cite{webelements}):
@@ -97,5 +98,9 @@ The absorption cross section is given by \cite{Wegener}:
 \begin{equation}
 \sigma_0= \frac{\lambda^2}{2\pi} \left(\frac{2I^*+1}{2I+1}\right) \frac{1}{1+\alpha}
 \end{equation}
-where $\alpha =9$ (\cite{Wegener}) is the conversion coefficient, $\lambda$ the wavelength of the absorbed photon, $I^*=3/2$ and $I=1/2$  are the nuclear spins of the excited and ground state.
+where $\alpha =9$ (\cite{Wegener}) is the conversion coefficient, $\lambda$ the wavelength of the absorbed photon, $I^*=3/2$ and $I=1/2$  are the nuclear spins of the excited and ground state. With $\lambda = \frac{hc}{E_\gamma}=86.14\cdot pm$, the cross section is:
+\begin{equation}
+\sigma_0=2.36\cdot*10^-22m^2
+\end{equation}
+Plugging those values in equation \ref{eq:effective absorber thickness}, the effective absorber thickness is:
 
