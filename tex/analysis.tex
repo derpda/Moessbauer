@@ -1,0 +1,101 @@
+\section{Analysis}
+\subsection{Identifying the Fe-57 transition peak}
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\linewidth]{C:/Users/benjamin/Documents/FPII/Moessbauer/results/calibration/spectra}
+\caption[Reference spectra]{Plot of all recorded reference spectra and the cobalt source (upscaled by factor 10 for better comparability)}
+\label{fig:analysis:spectra}
+\end{figure}
+Around channel 700 all target samples have clearly defined peak. For Terbium(Tb) this peaks blends with its $K$-line. This peak is caused by photons of the americium source, passing through the targets without interacting. The $K_\alpha$-line of copper (Cu) is beyond the left edge and therefore not meassured. The peak positions are estimated from the fig \ref{fig:analysis:spectra}. The error is estimated to be $s_{Ch}=10$. The Result can be seen in table \ref{tb:analysis:peakpos}. One can already identify the peak since it has to lie between the Rb-peak and the Mo-peak, which suggesting the peak furthest to the left (around channel 160).
+
+\begin{table}[H]\centering
+	\begin{tabular}{@{}llllll@{}}
+		\toprule
+		 traget & energy [keV]& peak channel  \\
+		\midrule
+		Cu & 8.04 & - \\
+		Rb & 13.37 & 120 \\
+		Mo & 17.44 & 180 \\
+		Ag & 22.10 & 230 \\
+		Ba & 32.06 & 340 \\
+		Tb & 44.23 & 500\\
+		\bottomrule
+	\end{tabular}
+	\caption[peak positions]{number of the channel for the $K$-line peaks}
+	\label{tb:analysis:peakpos}
+\end{table}
+
+The Linear function $E(ch)=a\cdot ch+b$ was fitted to the data see figure
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\linewidth]{../results/calibration/fit}
+\caption[MCA calibration]{Linear fit for the calibration of the MCA}
+\label{fig:calibrationfit}
+\end{figure}
+The results are:
+\begin{equation}
+\begin{aligned}
+	a &= (0.083\pm0.002)keV\\
+	b &= (3.2 \pm 0.6)keV
+\end{aligned}
+\end{equation}
+The position of the 14.4keV peak should be at\footnote{error calculated according to gaussian error propagation. Unless specified otherwise, all errors of values calculated from other with other values are determined this way}:
+\begin{equation}
+ch_{14.4keV}=\frac{14.4keV-b}{a}=135\pm4
+\end{equation}
+ A Comparison with figure \ref{fig:analysis:spectra} shows that the peak furthest to left is the closest ($ch=160\pm10$)to this value, however the values lie more almost two standard deviations apart. Fortunately, an exact calibration is not needed for further analysis.
+ %\input{compton}
+ \subsection{single line absorber}
+ The results for the measurement of the absorption spectrum of stainless steel can be seen in figure \ref{fig:single line absorber:fitresult}. To evaluate the data a voigt function (convolution of a Gaussian and Lorentz) was fitted to it:
+ \begin{equation}
+ f(v)=B- A \cdot Voigt((v-v_0),\delta,\sigma )
+ \end{equation}
+ where v is the absorber velocity, $v_0$ the peak position, $\delta$ is the 
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\linewidth]{../results/steel/voigtfittry.pdf}
+\caption[stainless steel spectrum]{measured absorption spectrum for stainless steel and voigt fit}
+\label{fig:single line absorber:fitresult}
+\end{figure}
+The fit results are:\\ \ \\
+$\begin{array}{l|llll}
+\text{} & \text{Estimate} & \text{Standard Error} \\
+\hline
+v_0 & 0.179463 & 0.00501016\\
+\sigma  & 0.252535 & 0.0335294 \\
+\delta  & 0.0655315 & 0.0491987\\
+\text{B} & 47.4597 & 0.108197\\
+A & 5.81316 & 0.39683 &\\
+\end{array}$
+
+\paragraph{Isomeric shift} \ \\
+From the parameter $v_0$ one can calculate the isomeric shift with equation \ref{eq:diffdopplershift}:
+\begin{equation}
+E_iso = (8.614\pm0.24)*10^-9 eV
+\end{equation}
+\paragraph{Effective absorber thickness} \ \\
+The effective absorber thickness is given by \cite{anleitung}:
+\begin{equation}
+T_A = f_An_A\beta\sigma_0d_A
+\end{equation}
+where $d_A = 25\mu m$ is the absorber thickness, $n_A$ is the number of iron atoms per volume, $\beta=0.022$ the ratio of Fe-57 in the isotope mixture, $\sigma_0$ the cross section and $f_A=0.8$ the Debye-Waller-factor of the absorber.
+To calculate $n_A$ literature values are used (\cite{webelements}):
+
+\begin{equation*}
+\begin{aligned}
+N_A &= 6.022 \cdot 10^{23} mol^{-1} \qquad& \text{Avogadro constant}\\
+\rho_{Fe} &= 7.874 g/cm^3 \qquad& \text{density of iron} \\
+A_Fe &= 55.845 g/mol \qquad& \text{molar mass of iron}\\
+r &=  (0.70\pm0.05) \qquad& \text{fraction of iron in the absorber\cite{anleitung}}
+\end{aligned}
+\end{equation*}
+The number of Fe atoms per volume is then given by:
+\begin{equation*}
+\frac{\rho_{Fe}}{A_Fe}N_Ar= (5.9\pm0.4)\cdot 10^{22} cm^{-3}
+\end{equation*}
+The absorption cross section is given by \cite{Wegener}:
+\begin{equation}
+\sigma_0= \frac{\lambda^2}{2\pi} \left(\frac{2I^*+1}{2I+1}\right) \frac{1}{1+\alpha}
+\end{equation}
+where $\alpha =9$ (\cite{Wegener}) is the conversion coefficient, $\lambda$ the wavelength of the absorbed photon, $I^*=3/2$ and $I=1/2$  are the nuclear spins of the excited and ground state.
+

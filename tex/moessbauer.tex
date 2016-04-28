@@ -1,0 +1,59 @@
+\documentclass[11pt, paper=a4]{scrartcl}
+
+% CONFIG
+\newcommand{\exptitle}{M\"o\ss bauer effect}       % long name of experiment 
+\newcommand{\exptitleshort}{M\"o\ss bauer effect} % short name of experiment
+\newcommand{\expdate}{04.04.2016}           % date of experiment
+\newcommand{\exptutor}{Veronika Magerl}
+
+\input{Vorspann}
+
+
+\pagenumbering{Roman}
+\setcounter{page}{1}
+
+
+%\input{abstract}
+\tableofcontents
+
+\newpage
+\listoffigures
+\thispagestyle{empty}
+
+\newpage
+\hypersetup{pageanchor=false} %stop page numbering (hyperref) to prevent for double page numers
+
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\input{physicalprinciples}
+
+\input{setup}
+
+\input{analysis}
+
+\newpage
+\begin{thebibliography}{9}
+\bibitem{Wegener}
+Wegener, Horst. "Der Mößbauer Effekt und seine Anwendungen". Mannheim 1966
+\bibitem{Demtröder}
+Demtröder, Wolfgang. Experimentalphysik 3 Atome, Moleküle und Festkörper
+
+\bibitem{jakobs}
+Jakobs, Karl. Experimentelle Methoden der Teilchenphysik. Vorlesungsskript 2014
+\bibitem{Eyges}
+Eyges, Leonard. Physics of the Mössbauer effect. 1965
+\bibitem{anleitung}
+A.Zwerger(2007), S.Winkelmann(1/2011), M.Köhli (2/2011). Versuchsanleitung Fortgeschrittenen Praktikum Teil II - Der Mößbauer-Effekt. 2012
+\bibitem{khwz}
+M.Köhler(8/2010), M.köhli (4/2011). Versuchanleitung Fortgeschrittenen Praktikum Teil I - Kurze Halbwertszeiten
+\bibitem{landgraf}
+U.Landgraf. Eichspektrum der Americium-Quelle (1997)
+\bibitem{webelements}
+https://www.webelements.com/ (28.4.2016)
+\bibitem{Frauenfelder}
+S. Margulies, P. Debrunner, H. Frauenfelder. Transmission and line broadening in the Mössbauer effect II. 1962
+\end{thebibliography}
+
+\end{document}
