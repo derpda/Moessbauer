@@ -1,21 +1,21 @@
 %physical principles
 \section{Goal of the experiment}
-By measuring absorption of photons of the $14.4 kev$ transition of Fe-57, in stainless steel and natural iron, the isomeric shift, the effective absorber thickness, the  Debeye-Waller-factor of the source the lifetime of the excited Fe-57 state, the magnetic field at the location of the nucleus and the magnetic moment of the $14.4 ke$V state.
+By measuring absorption of photons of the $\unit{14.4}{keV}$ transition of Fe-57, in stainless steel and natural iron, the isomeric shift, the effective absorber thickness, the  Debeye-Waller-factor of the source the lifetime of the excited Fe-57 state, the magnetic field at the location of the nucleus and the magnetic moment of the $\unit{14.4}{keV}14.4$ state.
 
-\section{physical principles}
-\subsection{Interaction of Gamma radiation with matter}
-Photons interact with matter in three major ways\cite{Demtröder}:
+\section{Physical principles}
+\subsection{Interaction of gamma radiation with matter}
+Photons interact with matter in three major ways \cite{Demtröder}:
 \paragraph{Photoelectric effect} \ \\
-Shell electrons of atoms absorb photons and gain its energy, leaving the potential well of the atom and exiting the shell with the energy $E_e = E_\gamma-E_B$ with $E_B$ being the binding energy of the electron.
+Shell electrons of atoms absorb photons and gain their energy, leaving the potential well of the atom and exiting the shell with the energy $E_e = E_\gamma-E_B$, with $E_B$ being the binding energy of the electron.
 \paragraph{Compton scattering} \ \\
-Compton Scattering is the elastic scattering of photons at quasi free  electrons ($E_B << E_\gamma$) and its wavelength $\lambda=2\pi c/\omega$ is shifted, depending on the scattering angle $\varphi$(see figure \ref*{eq:compton}):
+Compton Scattering is the elastic scattering of photons at quasi free  electrons ($E_B << E_\gamma$) and its wavelength $\lambda=2\pi c/\omega$ is shifted, depending on the scattering angle $\varphi$ (see figure \ref*{eq:compton}):
 \begin{equation}
 \lambda_S -\lambda_0 = \frac{2 \pi \hbar}{m_e c}(1-cos(\varphi))
 \label{eq:compton}
 \end{equation}
 \paragraph{Pair Production} \ \\
-A photon can produce a positron electron pair if it has an energy of at least $2\cdot m_e=1.022MeV$ the photon is lost in the processes reducing the Intensity of the photon beam.\\ \ \\
-Due to those processes the intensity of electromagnetic radiation decreases exponentially with penetration depth $d$:
+When passing through matter, a photon can produce a positron electron pair if it has an energy of at least $2\cdot m_e=\unit{1.022}{MeV}$. The photon is lost in the process, thus reducing the Intensity of the photon beam.\\ \ \\
+Due to those processes the intensity of electromagnetic radiation decreases exponentially with the penetration depth $d$:
 \begin{equation}
 I(d)=I_0 \cdot exp(-\mu d)
 \end{equation}
@@ -23,35 +23,35 @@ where $\mu$ is the attenuation coefficient.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.5\linewidth]{graphics/Compton}
-	\caption[Compton scattering]{Compton effect: A photon is scattered by a (quasi) free electron changing its direction by an angle $\varphi$\cite{Demtröder} }
+	\caption[Compton scattering]{Compton effect: A photon is scattered by a (quasi) free electron, changing its direction by an angle $\varphi$. \cite{Demtröder} }
 	\label{fig:principles:Compton}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[height=0.18\textheight]{graphics/Emission}
-	\caption[spontaneous $\gamma$ emission]{principle of spontaneous $\gamma$ emission of excited nuclei. Transitioning from an excited state ($E_a$) to the ground state ($E_g$) the nucleus emits a photon with energy $E_a-E_g=\hbar\dot \omega$ or transmits that energy directly to an electron of the atomic shell.\cite{Wegener}}
+	\caption[Spontaneous $\gamma$ emission]{Principle of spontaneous $\gamma$ emission of excited nuclei. Transitioning from an excited state ($E_a$) to the ground state ($E_g$), the nucleus emits a photon with energy $E_a-E_g=\hbar\dot \omega$ or transmits that energy directly to an electron of the atomic shell. \cite{Wegener}}
 	\label{fig:principles:Emission}
 \end{figure}
 \subsection{Gamma Decay and resonance absorption}
-Nuclei in excited states (energy $E_a$) can spontaneously transition into the ground (energy $E_g$) state. The energy $\Delta E$ the nucleus loses is either carried by an emitted photon (spontaneous emission) or directly gained by a shell electron (inner conversion). \\
-In the case of spontaneous emission, the photon can be absorbed by a nucleus of the same kind which thereby transits into an excited state. This is called resonance absorption. However due to the recoil the nuclei receive this rarely happens for free atoms.
-Consider the rest frame of a nucleus, that means its momentum is $p_0 = 0$. Now consider this nucleus decays by emitting a photon. Since the photon carries the momentum 
+Nuclei in excited states (energy $E_a$) can spontaneously transition into the ground (energy $E_g$) state. The energy $\Delta E$ that the nucleus loses is either carried by an emitted photon (spontaneous emission) or directly gained by a shell electron (inner conversion). \\
+In the case of spontaneous emission, the photon can be absorbed by a nucleus of the same kind, which thereby transitions into an excited state. This is called resonance absorption. However, due to the recoil that the nuclei receive, this rarely happens for free atoms.
+Consider the rest frame of a nucleus, that means its momentum is $p_0 = 0$. Now consider that this nucleus decays by emitting a photon. Since the photon carries the momentum 
 \begin{equation}
  p = \frac{E_\gamma}{c}= \frac{\hbar}{c}\cdot \omega
 \label{eq:momentum}
 \end{equation}
-with the reduced Planck constant $\hbar$ and c the speed of light, and momentum is conserved the nucleus receives a recoil equal to the photons momentum and therefore also kinetic energy or recoil energy $R$. The emitted photon therefore has the energy \cite{Eyges}:
+with the reduced Planck constant $\hbar$ and $c$ the speed of light, and since momentum is conserved, the nucleus receives a recoil equal to the photons momentum and therefore also kinetic energy, or recoil energy $R$. The emitted photon therefore has the energy \cite{Eyges}:
 \begin{equation}
 E_\gamma=\Delta E - \frac{p^2}{2m} = \Delta E - \frac{(\hbar \omega)^2}{2mc^2} =:\Delta E-R
 \label{eq:recoil:emission}
 \end{equation}
-When the photon is absorbed the same applies: the absorbing nucleus receives the recoil $R$. This means for a photon to be absorbed, inducing a nuclear transition with $\Delta E$ the photon has to have the energy:
+When the photon is absorbed, the same applies: the absorbing nucleus receives the recoil $R$. This means, for a photon to be absorbed, inducing a nuclear transition with $\Delta E$, the photon has to have the energy:
 \begin{equation}
 E_\gamma=\Delta E + R
 \label{eq:recoil:absorbtion}
 \end{equation}
-In consequence the absorption spectrum is shifted relative to the emission spectrum (see fig \ref{fig:principles:lorentz} depending on the recoil energy $R$.
+In consequence, the absorption spectrum is shifted relative to the emission spectrum (see fig \ref{fig:principles:lorentz} depending on the recoil energy $R$.
 
 \begin{figure}[hpbt]
 	\centering
@@ -61,20 +61,20 @@ In consequence the absorption spectrum is shifted relative to the emission spect
 \end{figure}
 
 \subsection{Doppler shift}
-Due to thermal motion the emitting nucleus and the absorbing nucleus have relative velocity $v$, shifting the frequency via Doppler effect:  
+Due to thermal motion, the emitting nucleus and the absorbing nucleus have a relative velocity $v$, thus shifting the frequency via the Doppler effect:  
 \begin{equation}
 E_\gamma^{'} = E_\gamma (1+\frac{v}{c}) 
 \label{eq:doppler shift}
 \end{equation}
-So the energy is changed by:
+Thus the energy is changed by:
 \begin{equation}
 E_\gamma^{'} - E_\gamma = E_\gamma \frac{v}{c}
 \label{eq:diffdopplershift}
 \end{equation}
 
 
-\subsection{Mößbauer effect}
-The Mößbauer effect is the name for the phenomenon of \emph{recoilless emission} (or absorption). Revisiting equation \ref{eq:recoil:emission} one an see that the recoil energy $R=\frac{(\hbar \omega)^2}{2mc^2}$ is inversely proportional to the mass of the nucleus. In a solid it is possible for the whole lattice the absorb the recoil therefore increasing the recoiled mass enormously, so that $R\approx0$\footnote{this is a simplified description, for a more detailed one see \cite{Eyges} and \cite{Wegener} }. This effect means atoms that shows this behavior (In this experiment Fe-57) can emit photons, that can be reabsorbed by atoms of the same kind.
+\subsection{Mössbauer effect}
+The Mössbauer effect is the name for the phenomenon of \emph{recoilless emission} (or absorption). Revisiting equation \ref{eq:recoil:emission}, one can see that the recoil energy $R=\frac{(\hbar \omega)^2}{2mc^2}$ is inversely proportional to the mass of the nucleus. In a solid, it is possible for the whole lattice to absorb the recoil, therefore increasing the recoiled mass enormously, so that $R\approx0$\footnote{this is a simplified description, for a more detailed one see \cite{Eyges} and \cite{Wegener} }. This effect means, that atoms which shows this behavior (In this experiment Fe-57) can emit photons, that can be reabsorbed by atoms of the same kind.
 
 %\subsubsection{Einstein lattice}
 %In the Einstein model the atoms of a lattice are described as three dimensional quantum mechanical oscillators, all with the same frequency $\omega_E$ This means the lattice can only increase its energy in quanta of $\hbar \omega_E$ so if $E_\gamma < \hbar \omega_E$ the absorption is recoilless.
@@ -90,7 +90,7 @@ The Debye-Waller factor is the ratio of recoilless absorption.
 f = exp \left[ -\frac{3R}{2k \cdot \Theta_D} \left(1+ \frac{4T^2}{\Theta_D^2}\int_{0}^{\Theta/T}\frac{xdx}{e^x-1}\right) \right]
 \end{equation}
 Where $R$ is the recoil energy, $k$ the Boltzmann constant, $\Theta_D$ the Debye temperature. 
-If the temperature is low $T<<\Theta_D$ this can be simplified to:
+If the temperature is low ($T<<\Theta_D$), this can be simplified to:
 \begin{equation}
 f \approx exp\left[ -\frac{3R}{k \cdot \Theta_D} \left( \frac{3}{2}+\frac{\pi^2 T^2}{\Theta_D^2}\right) \right]
 \end{equation}
@@ -98,21 +98,21 @@ f \approx exp\left[ -\frac{3R}{k \cdot \Theta_D} \left( \frac{3}{2}+\frac{\pi^2 
 \begin{figure}
 \centering
 \includegraphics[width=0.7\linewidth]{graphics/Debeyfactor}
-\caption[Debey factors]{Debye factor as a function of temperature in Fe-57 and Re-187. At room temperature Fe-57 has a ratio of recoilless emission absorption of 0.91}
+\caption[Debey factors]{Debye factor as a function of temperature in Fe-57 and Re-187. At room temperature Fe-57 has a ratio of recoilless emission absorption of 0.91. \cite{anleitung}}
 \label{fig:principles:Debeyfactor}
 \end{figure}
 
 \subsection{Isomer shift}
-Since electrons of an atomic shell are kept within the coulomb potential of the nucleus their potential energy depends on the charge distribution in the nucleus. Transitioning to an excited state affects this distribution therefore also affecting the potential energy of the electrons. This change in energy shifts the frequency that an absorbed photon must have to induce the transition\cite{Wegener}.
+Since electrons of an atomic shell are kept within the coulomb potential of the nucleus, their potential energy depends on the charge distribution in the nucleus. Transitioning to an excited state affects this distribution, therefore also affecting the potential energy of the electrons. This change in energy shifts the frequency that an absorbed photon must have to induce the transition\cite{Wegener}.
 \subsection{Hyperfine splitting}
-The nucleus has magnetic moment ($\mu_I$) and spin $I$. In a surrounding magnetic field $H$ the energy level splits into $2I+1$ sub-energy levels. The sub-sates are characterized by the magnetic quantum number $m_I = -I,I+1..,I-1,I$ and the energy difference induced is:
+The nucleus has a magnetic moment $\mu_I$ and a spin $I$. In a surrounding magnetic field $H$ the energy level splits into $2I+1$ sub-energy levels. The sub-states are characterized by the magnetic quantum number $m_I = -I,I+1..,I-1,I$ and the energy difference induced is:
 \begin{equation}
 E_{HFS}=\frac{\mu_I m_I H}{I}
 \end{equation}
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.5\linewidth]{graphics/HFS}
-\caption[Hyperfine splitting Fe-57]{Hyperfine splitting for Fe-57 in magnetic field H for the ground state g ($I_g = 1/2$) and the excited state ($I_a=3/2$).\cite{Wegener}}
+\caption[Hyperfine splitting Fe-57]{Hyperfine splitting for Fe-57 in magnetic field H for the ground state g ($I_g = 1/2$) and the excited state ($I_a=3/2$). \cite{Wegener}}
 \label{fig:HFS}
 \end{figure}
 The transition $m_a \rightarrow m_g$ emits photons with energy $\omega$:
