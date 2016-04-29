@@ -2,7 +2,7 @@
 \subsection{Identifying the Fe-57 transition peak}
 \begin{figure}[H]
 \centering
-\includegraphics[width=1\linewidth]{C:/Users/benjamin/Documents/FPII/Moessbauer/results/calibration/spectra}
+\includegraphics[width=1\linewidth]{../results/calibration/spectra}
 \caption[Reference spectra]{Plot of all recorded reference spectra and the cobalt source (upscaled by factor 10 for better comparability)}
 \label{fig:analysis:spectra}
 \end{figure}
@@ -43,35 +43,35 @@ The position of the 14.4keV peak should be at\footnote{error calculated accordin
 \begin{equation}
 ch_{14.4keV}=\frac{14.4keV-b}{a}=135\pm4
 \end{equation}
- A Comparison with figure \ref{fig:analysis:spectra} shows that the peak furthest to left is the closest ($ch=160\pm10$)to this value, however the values lie more almost two standard deviations apart. Fortunately, an exact calibration is not needed for further analysis.
- %\input{compton}
- \subsection{single line absorber}
- The results for the measurement of the absorption spectrum of stainless steel can be seen in figure \ref{fig:single line absorber:fitresult}. To evaluate the data a voigt function (convolution of a Gaussian and Lorentz) was fitted to it:
- \begin{equation}
- f(v)=B- A \cdot Voigt((v-v_0),\delta,\sigma )
- \end{equation}
- where v is the absorber velocity, $v_0$ the peak position, $\delta$ is the 
+A Comparison with figure \ref{fig:analysis:spectra} shows that the peak furthest to left is the closest ($ch=160\pm10$)to this value, however the values lie more almost two standard deviations apart. Fortunately, an exact calibration is not needed for further analysis.
+\input{compton}
+\subsection{single line absorber}
+The results for the measurement of the absorption spectrum of stainless steel can be seen in figure \ref{fig:single line absorber:fitresult}. To evaluate the data a voigt function (convolution of a Gaussian and Lorentz) was fitted to it:
+\begin{equation}
+f(v)=B- A \cdot Voigt((v-v_0),\delta,\sigma )
+\end{equation}
+where v is the absorber velocity, $v_0$ the peak position, $\delta$ is the 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.7\linewidth]{../results/steel/voigtfittry.pdf}
-\caption[stainless steel spectrum]{measured absorption spectrum for stainless steel and voigt fit}
+\caption[Stainless steel spectrum]{Measured absorption spectrum for stainless steel and Voigt fit.}
 \label{fig:single line absorber:fitresult}
 \end{figure}
 The fit results are:\\ \ \\
 $\begin{array}{l|llll}
 \text{} & \text{Estimate} & \text{Standard Error} \\
 \hline
-v_0 & 0.179463 & 0.00501016\\
-\sigma  & 0.252535 & 0.0335294 \\
-\delta  & 0.0655315 & 0.0491987\\
-\text{B} & 47.4597 & 0.108197\\
-A & 5.81316 & 0.39683 &\\
+v_0 & 0.179 & 0.005\\
+\sigma  & 0.25 & 0.03 \\
+\delta  & 0.07 & 0.05\\
+\text{B} & 47.46 & 0.11\\
+A & 5.8 & 0.4 &\\
 \end{array}$
 
 \subsubsection{Isomeric shift} \ \\
 From the parameter $v_0$ one can calculate the isomeric shift with equation \ref{eq:diffdopplershift}:
 \begin{equation}
-E_iso = (8.614\pm0.24)*10^-9 eV
+E_{iso} = (8.614\pm0.24)*10^{-9} eV
 \end{equation}
 \subsubsection{Effective absorber thickness} \ \\
 The effective absorber thickness is given by \cite{anleitung}:
