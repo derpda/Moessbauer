@@ -67,12 +67,12 @@ v_0 & 0.179 & 0.005\\
 \text{B} & 47.46 & 0.11\\
 A & 5.8 & 0.4 &\\
 \end{array}$
-
+The fit function exhibits notable differences from the data. The data peak lies about $unit{0.05}{mm/s}$ closer to zero than the Voigt peak and there is a noticeable asymmetry. The left flank is steeper than the right. This is a hint that the model does not reflect the data fully.
 \subsubsection{Isomeric shift} \ \\
 Since the background is constant it only effects variable $B$ of the fit function, therefore
 with the parameter $v_0$ one can calculate the isomeric shift, without having to correct for the background. \ref{eq:diffdopplershift}:
 \begin{equation}
-E_{iso} = (8.614\pm0.24)\cdot 10^{-9} eV
+E_{iso} = (8.61\pm0.24)\cdot 10^{-9} eV
 \end{equation}
 \subsubsection{Effective absorber thickness}
 \label{sec:effab}
@@ -128,11 +128,11 @@ f_s= 0.51\pm0.08
 \end{equation}
 The rather big error ($15\%$) is mainly caused by the uncertainty of $Z(v_{min})$ since all errors of the fit function parameters contribute.
 
-\subsubsection{life time of the 14.4keV state}
+\subsubsection{Life time of the 14.4keV state}
 \paragraph{From the fit}\ \\
 From the Voigt fit the half width $\delta = 0.14 \pm 0.10$ of the convoluted Lorentzian can be extracted. It has to be noted, that $\delta$ from the fit is still in units of velocity (mm/s), so using equation \ref{eq:diffdopplershift} the wanted half width $\Gamma$ is:
 \begin{equation}
-\Gamma  = 6.2\pm4.6\cdot 10^{-8} eV
+\Gamma  = \unit{6.2\pm4.6\cdot 10^{-8}}{eV}
 \end{equation}
 With Heisenberg's uncertainty relation $\Gamma \cdot \scalebox{1.5}{$\tau$}=\hbar$, the mean life time is:
 \begin{equation}
@@ -164,17 +164,17 @@ The effective absorber thickness was calculated in section \ref{sec:effab}. To e
 \end{table}
 For the error estimation the bigger difference (0.04) is chosen. As the peak width of the absorber, the width of the fitted Voigt profile is used, calculated with an empirical  approximation($0.02\%$ accuracy)\cite{Olivero}:
 \begin{equation}
-\Gamma_a=0.5*(1.0692\cdot \delta+\sqrt{0.86639\cdot \delta^2 + 4\cdot (2\sigma\sqrt{2ln(2)})})
+\Gamma_a=0.5\cdot (1.0692\cdot \delta+\sqrt{0.86639\cdot \delta^2 + 4\cdot (2\sigma\sqrt{2ln(2)})})
 \end{equation}
 and with the values from the Voigt fit for $\delta$ and $\sigma$
 \begin{equation}
-\Gamma_a=(32\pm4)*neV
+\Gamma_a=\unit{(32\pm4)}{neV}
 \end{equation}
 and
 \begin{equation}
-\Gamma=(8.9\pm0.6)neV
+\Gamma=\unit{(8.9\pm0.6)}{neV}
 \end{equation}
 Due to the time-energy uncertainty the mean life time is then given by:
 \begin{equation}
-\scalebox{1.5}{$\tau$}=\hbar/\Gamma=()6.5\pm0.4)ns
+\scalebox{1.5}{$\tau$}=\hbar/\Gamma=\unit{(6.5\pm0.4)}{ns}
 \end{equation}
