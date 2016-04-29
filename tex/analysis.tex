@@ -28,7 +28,7 @@ Around channel 700 all target samples have clearly defined peak. For Terbium(Tb)
 The Linear function $E(ch)=a\cdot ch+b$ was fitted to the data see figure
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.7\linewidth]{../results/calibration/fit}
+\includegraphics[width=1.0\linewidth]{../results/calibration/fit}
 \caption[MCA calibration]{Linear fit for the calibration of the MCA}
 \label{fig:calibrationfit}
 \end{figure}
@@ -50,10 +50,10 @@ The results for the measurement of the absorption spectrum of stainless steel ca
 \begin{equation}
 f(v)=B- A \cdot Voigt((v-v_0),\delta,\sigma )
 \end{equation}
-where v is the absorber velocity, $v_0$ the peak position, $\delta$ is the 
+where $v$ is the absorber velocity, $v_0$ the peak position, $\delta$ is the 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.7\linewidth]{../results/steel/voigtfittry.pdf}
+\includegraphics[width=1.0\linewidth]{../results/steel/voigtfittry.pdf}
 \caption[Stainless steel spectrum]{Measured absorption spectrum for stainless steel and Voigt fit.}
 \label{fig:single line absorber:fitresult}
 \end{figure}
@@ -63,7 +63,7 @@ $\begin{array}{l|llll}
 \hline
 v_0 & 0.179 & 0.005\\
 \sigma  & 0.25 & 0.03 \\
-\delta  & 0.07 & 0.05\\
+\delta  & 0.14 & 0.10\\
 \text{B} & 47.46 & 0.11\\
 A & 5.8 & 0.4 &\\
 \end{array}$
@@ -74,7 +74,9 @@ with the parameter $v_0$ one can calculate the isomeric shift, without having to
 \begin{equation}
 E_{iso} = (8.614\pm0.24)\cdot 10^{-9} eV
 \end{equation}
-\subsubsection{Effective absorber thickness} \ \\
+\subsubsection{Effective absorber thickness}
+\label{sec:effab}
+ \ \\
 The effective absorber thickness is given by \cite{anleitung}:
 \begin{equation}
 T_A = f_An_A\beta\sigma_0d_A
@@ -127,17 +129,44 @@ f_s= 0.51\pm0.08
 The rather big error ($15\%$) is mainly caused by the uncertainty of $Z(v_{min})$ since all errors of the fit function parameters contribute.
 
 \subsubsection{life time of the 14.4keV state}
-\paragraph{From the fit}\\
-From the Voigt fit the half width $\delta = 0.065 \pm 0.049$ of the convoluted Lorentzian can be extracted. It has to be noted, that $\delta$ from the fit is still in units of velocity (mm/s), so using equation \ref{eq:diffdopplershift} the wanted half width $\Gamma$ is:
+\paragraph{From the fit}\ \\
+From the Voigt fit the half width $\delta = 0.14 \pm 0.10$ of the convoluted Lorentzian can be extracted. It has to be noted, that $\delta$ from the fit is still in units of velocity (mm/s), so using equation \ref{eq:diffdopplershift} the wanted half width $\Gamma$ is:
 \begin{equation}
-\Gamma  = 3.1\pm2.3\cdot 10^{-8} eV
+\Gamma  = 6.2\pm4.6\cdot 10^{-8} eV
 \end{equation}
 With Heisenberg's uncertainty relation $\Gamma \cdot \scalebox{1.5}{$\tau$}=\hbar$, the mean life time is:
 \begin{equation}
-\scalebox{1.5}{$\tau$}= (21\pm16)ns
+\scalebox{1.5}{$\tau$}= (11\pm8)ns
 \end{equation}
 The fit uncertainty propagates through the calculation and is responsible for the 
-relative error of over $75\%$. Despite of this rather big error the literature value $\scalebox{1.5}{$\tau_{lit}$}=141$ns is still more than seven standard deviations away from the determined value.
+relative error of over $70\%$. Despite of this the literature value \scalebox{1.5}{$\tau$}$_{lit}$=141ns is still more than seven standard deviations away from the determined value.
 
-\paragraph{From the effective absorber thickness}
+\paragraph{From the effective absorber thickness} \ \\
+The relative line broadening is determined graphically from figure \ref{fig:absorberthicknessevaluated}. For this purpose the program Inkscape was used. By measuring the length of each coordinate axes in pixels, factors are determined, allowing the conversion between line lengths in pixels and their corresponding values.\\
+\begin{figure}[hbp]
+	\centering
+	\includegraphics[width=1.0\linewidth]{graphics/absorberthicknessevaluated}
+	\caption{Graphical determination of the relative line broadening\cite{Frauenfelder}}
+	\label{fig:absorberthicknessevaluated}
+\end{figure}
+The effective absorber thickness was calculated in section \ref{sec:effab}. To estimate the error, the relative broadening was also determined for $T_A\pm s_{T_A}$. The results are:
+\begin{table}[H]\centering
+	\begin{tabular}{@{}llllll@{}}
+		\toprule
+		$T_A$ & $\frac{\Gamma_a}{2\Gamma}$ \\
+		\midrule
+		5.8 & 1.76\\
+		6.2 & 1.79 \\
+		6.6 & 1.83 \\
+	\end{tabular}
+	\caption[relative broadening]{relative broadening for different absorber thicknesses}
+	\label{tb:relative broadening}
+\end{table}
+For the error estimation the bigger difference (0.04) is chosen. As the peak width of the absorber, the width of the fitted Voigt profile is used, calculated with the empirical  approximation\cite{Olivero}:
+\begin{equation}
+0.5*(1.0692\cdot \delta+\sqrt{0.86639\cdot \delta^2 + 4\cdot (2\sigma\sqrt{2ln(2)})})
+\end{equation}
+
+
+
 
