@@ -6,7 +6,7 @@
 \caption[Reference spectra]{Plot of all recorded reference spectra and the cobalt source (upscaled by factor 10 for better comparability)}
 \label{fig:analysis:spectra}
 \end{figure}
-Around channel 700 all target samples have clearly defined peak. For Terbium(Tb) this peaks blends with its $K$-line. This peak is caused by photons of the americium source, passing through the targets without interacting. The $K_\alpha$-line of copper (Cu) is beyond the left edge and therefore not meassured. The peak positions are estimated from the fig \ref{fig:analysis:spectra}. The error is estimated to be $s_{Ch}=10$. The Result can be seen in table \ref{tb:analysis:peakpos}. One can already identify the peak since it has to lie between the Rb-peak and the Mo-peak, which suggesting the peak furthest to the left (around channel 160).
+Around channel 700 all target samples have clearly defined peak. For Terbium(Tb) this peaks blends with its $K$-line. This peak is caused by photons of the americium source, passing through the targets without interacting. The $K_\alpha$-line of copper (Cu) is beyond the left edge and therefore not meassured. The peak positions are estimated from the fig \ref{fig:analysis:spectra}. The error is estimated to be $s_{Ch}=10$. The Result can be seen in table \ref{tb:analysis:peakpos}. One can already identify the peak since it has to lie between the Rb-peak and the Mo-peak, which is suggesting the peak furthest to the left (around channel 160) belongs to the 14.4keV line.
 
 \begin{table}[H]\centering
 	\begin{tabular}{@{}llllll@{}}
@@ -39,13 +39,13 @@ The results are:
 	b &= (3.2 \pm 0.6)keV
 \end{aligned}
 \end{equation}
-The position of the 14.4keV peak should be at\footnote{error calculated according to gaussian error propagation. Unless specified otherwise, all errors of values calculated from other with other values are determined this way}:
+The position of the 14.4keV peak should be at\footnote{error calculated according to gaussian error propagation. Unless specified otherwise, all errors of values calculated with other values are determined this way}:
 \begin{equation}
 ch_{14.4keV}=\frac{14.4keV-b}{a}=135\pm4
 \end{equation}
 A Comparison with figure \ref{fig:analysis:spectra} shows that the peak furthest to left is the closest ($ch=160\pm10$)to this value, however the values lie more almost two standard deviations apart. Fortunately, an exact calibration is not needed for further analysis.
 \input{compton}
-\subsection{single line absorber}
+\subsection{Single line absorber}
 The results for the measurement of the absorption spectrum of stainless steel can be seen in figure \ref{fig:single line absorber:fitresult}. To evaluate the data a voigt function (convolution of a Gaussian and Lorentz) was fitted to it:
 \begin{equation}
 f(v)=B- A \cdot Voigt((v-v_0),\delta,\sigma )
@@ -115,11 +115,11 @@ The Debye-Waller-factor is related to the count rate with no absorption $Z(\inft
 \frac{Z(\infty)-Z(v_{min})}{Z(\infty)}=f\cdot [1-exp(-\frac{T_A}{2})J_0(\frac{iT_A}{2})]
 \label{eq:debye}
 \end{equation}
-$i$ is the imaginary unit and $J_0$ the order zero Bessel function. The count rates on the left can be determined from the fit function $f(v)$ and the Compton background $N_C$:
+$i$ is the imaginary unit and $J_0$ the order zero Bessel function. The count rates on the left can be determined from the fit function $f(v)$ and the Compton background $A_C$:
 \begin{equation}
 \begin{aligned}
-Z(\infty) &= B - N_C\\
-Z(v_{min}) &= A-N_C\\
+Z(\infty) &= B - A_C\\
+Z(v_{min}) &= A-A_C\\
 \end{aligned}
 \end{equation}
 Rearranging equation \ref{eq:debye} we get for the Debye-Waller factor of the source
@@ -162,7 +162,7 @@ The effective absorber thickness was calculated in section \ref{sec:effab}. To e
 	\caption[relative broadening]{relative broadening for different absorber thicknesses}
 	\label{tb:relative broadening}
 \end{table}
-For the error estimation the bigger difference (0.04) is chosen. As the peak width of the absorber, the width of the fitted Voigt profile is used, calculated with the empirical  approximation}($0.02\%$ accuracy)\cite{Olivero}:
+For the error estimation the bigger difference (0.04) is chosen. As the peak width of the absorber, the width of the fitted Voigt profile is used, calculated with an empirical  approximation($0.02\%$ accuracy)\cite{Olivero}:
 \begin{equation}
 \Gamma_a=0.5*(1.0692\cdot \delta+\sqrt{0.86639\cdot \delta^2 + 4\cdot (2\sigma\sqrt{2ln(2)})})
 \end{equation}

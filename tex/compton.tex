@@ -27,7 +27,11 @@ The acrylic glass in which the sample is cased absorbs some of the radiation. To
 \dot{N}_0&=\unit{(107.4\pm0.3)}{s^{-1}}\\
 \dot{N}_A&=\unit{(84.8\pm0.3)}{s^{-1}}
 \end{align}
-where the uncertainties stem from the Poisson errors on the number of counts. With the values given for the attenuation coefficient $\mu/\rho=\unit{1.101}{cm^2/g}$ and the density of the acrylic glass $\rho=\unit{1.19}{g/cm^3}$ in \cite{anleitung}, the mass attenuation coefficient $\mu=\unit{1.31019}{1/cm}$ can be calculated. With this value as well as the thickness of the plate, the count rate after the acrylic glass can also directly be calculated from the count rate without the acrylic glass as
+where the uncertainties stem from the Poisson errors on the number of counts. The attenuation coefficient can then be calculated:
+\begin{equation}
+\mu_{acr}=Log\left[\frac{\dot{N}_0}{\dot{N}_A}\right]\cdot\frac{1}{d}=\unit{(1.21\pm0.02)}{1/cm}
+\end{equation}
+With the values given for the attenuation coefficient $\mu/\rho=\unit{1.101}{cm^2/g}$ and the density of the acrylic glass $\rho=\unit{1.19}{g/cm^3}$ in \cite{anleitung}, the mass attenuation coefficient $\mu=\unit{1.31019}{1/cm}$ can be calculated. With this value as well as the thickness of the plate, the count rate after the acrylic glass can also directly be calculated from the count rate without the acrylic glass as
 \begin{equation}
 \dot{N}_A^{calc}=\dot{N}_0\cdot e^{-\mu d}=\unit{(83.3\pm0.3)}{s^{-1}}
 \end{equation}
