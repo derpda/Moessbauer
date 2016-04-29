@@ -142,7 +142,7 @@ The fit uncertainty propagates through the calculation and is responsible for th
 relative error of over $70\%$. Despite of this the literature value \scalebox{1.5}{$\tau$}$_{lit}$=141ns is still more than seven standard deviations away from the determined value.
 
 \paragraph{From the effective absorber thickness} \ \\
-The relative line broadening is determined graphically from figure \ref{fig:absorberthicknessevaluated}. For this purpose the program Inkscape was used. By measuring the length of each coordinate axes in pixels, factors are determined, allowing the conversion between line lengths in pixels and their corresponding values.\\
+The relative line broadening $\Gamma_a/2\Gamma$ is determined graphically from figure \ref{fig:absorberthicknessevaluated}. For this purpose the program Inkscape was used. By measuring the length of each coordinate axes in pixels, factors are determined, allowing the conversion between line lengths in pixels and their corresponding values.\\
 \begin{figure}[hbp]
 	\centering
 	\includegraphics[width=1.0\linewidth]{graphics/absorberthicknessevaluated}
@@ -162,11 +162,19 @@ The effective absorber thickness was calculated in section \ref{sec:effab}. To e
 	\caption[relative broadening]{relative broadening for different absorber thicknesses}
 	\label{tb:relative broadening}
 \end{table}
-For the error estimation the bigger difference (0.04) is chosen. As the peak width of the absorber, the width of the fitted Voigt profile is used, calculated with the empirical  approximation\cite{Olivero}:
+For the error estimation the bigger difference (0.04) is chosen. As the peak width of the absorber, the width of the fitted Voigt profile is used, calculated with the empirical  approximation}($0.02\%$ accuracy)\cite{Olivero}:
 \begin{equation}
-0.5*(1.0692\cdot \delta+\sqrt{0.86639\cdot \delta^2 + 4\cdot (2\sigma\sqrt{2ln(2)})})
+\Gamma_a=0.5*(1.0692\cdot \delta+\sqrt{0.86639\cdot \delta^2 + 4\cdot (2\sigma\sqrt{2ln(2)})})
 \end{equation}
-
-
-
-
+and with the values from the Voigt fit for $\delta$ and $\sigma$
+\begin{equation}
+\Gamma_a=(32\pm4)*neV
+\end{equation}
+and
+\begin{equation}
+\Gamma=(8.9\pm0.6)neV
+\end{equation}
+Due to the time-energy uncertainty the mean life time is then given by:
+\begin{equation}
+\scalebox{1.5}{$\tau$}=\hbar/\Gamma=()6.5\pm0.4)ns
+\end{equation}
